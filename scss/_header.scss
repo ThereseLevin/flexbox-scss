@@ -1,0 +1,36 @@
+/* ====== HEADER ====== */
+
+header {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $septenary-color;
+    position: relative;
+    & :after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: url("../media/ducks.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+} 
+
+h1 {
+    color: $secondary-color;
+}
+
+small {
+    color: $secondary-color;
+}
+
+.jumbotron {
+    text-align: center;
+    text-shadow: 2px 2px 0 $quinary-color;
+}

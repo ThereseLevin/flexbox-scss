@@ -1,0 +1,16 @@
+/* ====== MAIN ====== */
+
+main {
+    section {
+        padding: 4em;
+        background-color: $secondary-color;
+        
+        h2:first-of-type {
+            margin-top: 0;
+        }
+    }
+    section:nth-of-type(even){
+        background-color: $quaternary-color;
+    }
+}
+
